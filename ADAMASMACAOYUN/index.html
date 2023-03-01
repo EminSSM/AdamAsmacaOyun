@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Adam Asmaca</h1>
+
+    <div class="container">
+        <!---sehpa--->
+        <svg height="210" width="500" class="grafik">
+            <line x1="80" y1="20" x2="150" y2="20" />
+            <line x1="150" y1="20" x2="150" y2="45" />
+            <line x1="80" y1="20" x2="80" y2="210" />
+            <line x1="40" y1="210" x2="120" y2="210" />
+          
+        <!---kafa--->
+            <circle cx="150" cy="65" r="20" class="item"/>
+        <!---gövde--->
+            <line x1="150" y1="85" x2="150" y2="165" class="item" />
+        <!---kollar--->
+             <line x1="150" y1="110" x2="120" y2="95" class="item" />
+             <line x1="150" y1="110" x2="180" y2="95" class="item" />
+        <!---bacaklar--->
+            <line x1="150" y1="165" x2="120" y2="190" class="item"/>
+            <line x1="150" y1="165" x2="180" y2="190" class="item"/>
+        </svg>
+        <div id="wrong-letters" >
+            <h3>Hatalı Harfler</h3>
+            <span>a,b,c</span>
+   
+        </div>
+        <div id="word">
+           
+
+        </div>
+      
+    </div>
+
+    <div id="popup-container">
+        <div class="pop-up">
+            <h2 id="success-message">Kazandınız.</h2>
+            <button id="play-again">Tekrar oyna</button>
+        </div>
+    </div>
+    
+    <div id="message" class="">
+        <p>Bu harfi zaten girdiniz.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
