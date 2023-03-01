@@ -1,2 +1,2 @@
 # AdamAsmacaOyunJS
- HTML,CSSJavascript ile oyun tasarımı
+ HTML,CSS,Javascript ile oyun tasarımı
